@@ -24,5 +24,5 @@ db.users.deleteOne({ name: "Swarup" });
 1. git init
 2. git status
 3. git add .
-4. git config --global user.name "Anuksha"
-5. git config --global user.email "anuksha1334@gmail.com"
+4. git config user.name "Anuksha"
+5. git config user.email "anuksha1334@gmail.com"
