@@ -26,3 +26,10 @@ db.users.deleteOne({ name: "Swarup" });
 3. git add .
 4. git config user.name "Anuksha"
 5. git config user.email "anuksha1334@gmail.com"
+
+git remote remove origin
+git remote add origin https://github.com/AnukshaDhope/Anuksha_Mongo.git
+git branch -M main
+git add .
+git commit -m "first commit"
+git push -u origin main
